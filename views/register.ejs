@@ -1,0 +1,22 @@
+<main>
+  <div class="reg__form">
+      <h2>Register here</h2>
+      <form action="/users/register" id="form" method="POST">
+          <label for="fname">First Name</label>
+          <input type="text" name="form" placeholder="First Name" id="fname" required>
+          <label for="sname">Second name</label>
+          <input type="text" name="form" placeholder="Second Name" id="sname" required>
+          <label for="email">Email</label>
+          <input type="email" name="form" placeholder="Email adress" id="email" required>
+          <label for="pass">Password</label>
+          <input type="password" name="form" placeholder="Enter password" id="pass" required>
+          <label for="cpass">Confirm password</label>
+          <input type="password" name="form" placeholder="Confirm password" id="cpass" required>
+          <input type="submit" value="Register" id="btn">
+      </form>
+      <p>
+          Have an account? 
+          <a href="/users/login">Login</a>
+      </p>
+  </div>
+</main>
