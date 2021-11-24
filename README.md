@@ -1,4 +1,4 @@
-jj# E-voting-system
+# E-voting-system
 This is an online zetech voting system 
 This is a campus based online voting system used by students to vote for their required leader and see a real time system.
 ## Table of Contents
